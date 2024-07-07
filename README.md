@@ -17,9 +17,9 @@ Config = {}
 
 -- CHANGE NOTIFICATION SETTINGS -- BENACHRICHTIGUNGSEINSTELLUNGEN ÄNDERN
 
-Config.Notification = function(action)
+
     TriggerEvent('CUSTOM:CUSTOM', Config.Translations[Config.Locale][action])
-end
+
 
 -- JOBS IM SCOREBOARD EINSTELLEN -- POSTING JOBS IN THE SCOREBOARD
 
